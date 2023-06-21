@@ -1,0 +1,74 @@
+body #main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#login {
+  display: flex;
+  margin: auto;
+  border: 2px solid #C4D7B2;
+  border-radius: 10px;
+  padding: 3% 2% 2% 2%;
+  flex-direction: column;
+  background-color: #C4D7B2;
+}
+
+#login-form {
+  display: flex;
+  gap: 20px;
+  font-size: large;
+  width:  100%;
+  flex-flow: column wrap;
+}
+#titleLogin {
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 60px;
+}
+
+#userEmail:focus, #userPassword:focus {
+  outline: 0;
+}
+
+.form-item {
+  display: flex;
+  background-color:#F7FFE5;
+  gap: 20px;
+  padding: 10px;
+  /* align-items: center; */
+  border-radius: 25px;
+}
+
+.form-item.submitBtn {
+  background-color: #C4D7B2;
+  margin-bottom: -8px;
+  margin-top: 20px;
+}
+
+#login-form input[type="email"], #login-form input[type="password"], #login-form input [type="submit"] {
+  width: 100%;
+  border: 0 ;
+  background-color: inherit;
+  font-size: larger;
+}
+.formBtn {
+  background-color: #A0C49D;
+  font-size: large;
+  border: 0;
+  height: 3rem;
+  border-radius: 20px;
+  width: 30%;
+  margin: auto;
+}
+.formBtn.register {
+  margin-right: 0;
+}
+.formBtn.login {
+  margin-left: 0;
+}
+.formBtn:hover {
+  background-color: #F7FFE5;
+  cursor: pointer;
+}

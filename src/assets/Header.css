@@ -1,0 +1,10 @@
+#header {
+    background-color: #A0C49D;
+    padding: 35px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
