@@ -4,6 +4,6 @@ Feel free to suggest additions/improvements if anything comes to mind. <br/>
 I appreciate all and any suggestions.<br/>
 That's all.
 
-TO-DO list:
-  1- Add DB to app.
-  2- Format/Style header.
+TO-DO list: <br/>
+  1- Add DB to app.<br/>
+  2- Format/Style header.<br/>
